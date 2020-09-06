@@ -69,7 +69,8 @@ class Help extends Component {
 
     render() {
         return (
-            <div><Sidebar /><Logout />
+            <div className="register-image">
+            <div><Sidebar /><Logout /></div>
                 <br></br><br></br>
                 <h2 className='h1_tag'>Want to delete your account ?</h2>
                 <br></br>

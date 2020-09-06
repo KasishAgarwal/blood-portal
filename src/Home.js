@@ -6,7 +6,9 @@ import './components/Form.css'
 class Home extends Component {
     render() {
         return (
+            <div className= "register-image">
             <div><Sidebar /><Logout />
+            </div>
                 <br /><br /> <br /><br />
                 <h1 className='h1_tag'>Get here the details of users.</h1>
                 <br /><br />

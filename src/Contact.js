@@ -116,7 +116,9 @@ class Contact extends Component {
     };
     render() {
         return (
-            <div><Sidebar /><Logout />
+            <div className="register-image">
+                <div><Sidebar /><Logout />
+                </div>
                 <h5 className='h1_tag'>Want to update your account ?</h5>
                 <h6>If yes, Click Enter Details and Update.</h6>
                 <h6>*NOTE : Email id and Username can't be updated. So enter it same as during Create Account.</h6>
@@ -179,15 +181,15 @@ class Contact extends Component {
                     </div>
                     <br />
                     <div>
-                    <label>Occupation</label>
-                    <select name="skill" placeholder="Occupation" onChange={this.handleChange}>
-                        <option>Select</option>
-                        <option value="React">Student</option>
-                        <option value="Angular">Job</option>
-                        <option value="Node">Business</option>
-                        <option value="Vue">Research</option>
-                        <option value="js">Phd</option>
-                    </select>
+                        <label>Occupation</label>
+                        <select name="skill" placeholder="Occupation" onChange={this.handleChange}>
+                            <option>Select</option>
+                            <option value="React">Student</option>
+                            <option value="Angular">Job</option>
+                            <option value="Node">Business</option>
+                            <option value="Vue">Research</option>
+                            <option value="js">Phd</option>
+                        </select>
                         <div style={{ color: 'red' }} className='error'>{this.state.skillError}</div>
                     </div>
                     <br />

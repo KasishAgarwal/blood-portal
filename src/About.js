@@ -8,7 +8,8 @@ class About extends Component {
     render() {
         const userName = JSON.parse(localStorage.getItem('userName'));
         return (
-            <div><Sidebar /><Logout />
+            <div className="register-image">
+                <div><Sidebar /><Logout /></div>
                 <div className='success'>
                     <br /><br />
                     <h1 style={{ color: 'white' }}>Welcome</h1>

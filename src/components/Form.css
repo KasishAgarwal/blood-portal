@@ -189,12 +189,14 @@ ul li{
   .register-image {
     background-image: url("../ima.jpg");
     background-color: #cccccc;
-    height: 750px;
+    height: 800px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
   }
+  
+ 
   
 
 

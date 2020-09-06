@@ -7,7 +7,7 @@ import Logout from './components/Logout'
 class Calender extends Component {
     render() {
         return (
-            <div><Sidebar /><Logout />
+                <div><Sidebar /><Logout />
                 <div className='calendar'>
                     <FullCalendar
                         defaultView="dayGridMonth"

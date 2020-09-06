@@ -7,13 +7,15 @@ function getSuccess(props) {
     console.log(data)
     const user = data.map(user => {
         return (
-            <div key={user.id}>
-                <div style={{ background: 'GREY', color: 'BLACK' }}>
-                    <p>Name of Donor : {user.firstName} {user.lastName} </p>
-                    <p>Mobile No. : {user.contact}</p>
-                    <p>Blood Group : {user.bloodGroup}</p>
+                <div>
+                <div key={user.id}>
+                    <div style={{ background: 'GREY', color: 'BLACK' }}>
+                        <p>Name of Donor : {user.firstName} {user.lastName} </p>
+                        <p>Mobile No. : {user.contact}</p>
+                        <p>Blood Group : {user.bloodGroup}</p>
+                    </div>
                 </div>
-            </div>
+                </div>
         )
     });
     // console.log(props.location.state.data);
