@@ -19,7 +19,6 @@ import seeProfile from './seeProfile'
 
 
 const routing = (
-
   <div className="App">
     <Router>
       <Route path="/" exact component={App} />
